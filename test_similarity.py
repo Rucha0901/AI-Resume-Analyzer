@@ -1,10 +1,8 @@
 # test_similarity.py
 # Test the similarity scorer with different resume/JD combinations
-print("Step 1")
+
 from pdf_extractor import extract_text_from_pdf
-print("Step 2")
 from similarity_matcher import analyze_match, print_match_results
-print("Step 3")
 
 # ── TEST 1: Strong Match ──────────────────────────────
 # Use a data science resume with a data science JD

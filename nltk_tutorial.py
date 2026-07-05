@@ -9,7 +9,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 # A sample sentence
-sentence = "I am an experienced Python developer skilled in data analysis and machine learning."
+sentence = "Developed REST APIs using Python, Django, PostgreSQL, Docker and Kubernetes."
 
 # Step 1: Tokenize
 tokens = word_tokenize(sentence)
